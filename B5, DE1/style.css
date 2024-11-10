@@ -1,0 +1,80 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: azure;
+  background-size: cover;
+}
+
+.color-section {
+  background-image: url(https://scx2.b-cdn.net/gfx/news/hires/2019/galaxy.jpg);
+  color: white;
+  padding: 2rem 0;
+}
+
+.container-fluid {
+  padding: 5% 15%;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  padding: 0 1.2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.product-card {
+  flex: 1 1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-card h2 {
+  font-size: 150%;
+}
+
+.product-card p {
+  font-size: 1.2rem;
+  color: #d96b6b;
+}
+
+.product-card button {
+  color: #fff;
+  font-size: 150%;
+}
+
+/* interact effect */
+.product-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}

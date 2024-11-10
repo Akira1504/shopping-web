@@ -1,0 +1,33 @@
+body {
+  font-family: "Ubuntu";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.color-section {
+  background-color: #c633c1;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  padding: 0 1.2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  opacity: 0.8;
+}

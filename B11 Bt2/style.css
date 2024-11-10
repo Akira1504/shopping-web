@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(143, 58, 58);
+}
+
+.container-fluid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 30px;
+  padding: 5% 15%;
+}
+
+.product-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  text-align: center;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-card h2 {
+  font-size: 150%;
+}
+
+.product-card p {
+  font-size: 1.2rem;
+  color: #d96b6b;
+}
+
+.btn-primary {
+  background-color: #4480b8;
+}
+
+.product-card button {
+  color: #ffffff;
+  font-size: 150%;
+}
+
+/* Interaction effect */
+.product-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
